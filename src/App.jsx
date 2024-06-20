@@ -1,13 +1,14 @@
 
 import './App.css'
+import VacationCard from './components/VacationCard';
 
 function App() {
   
 
   return (
     <>
-      <div>
-        
+      <div id="app-container">
+        <VacationCard />
       </div>
     </>
   )
