@@ -1,4 +1,10 @@
 #app-container {
     display: flex;
     max-width: 100%;
+    border: 2px solid black;
+}
+
+#app-container > ul  {
+    width: 25%;
+    border: 4px solid yellow;
 }
