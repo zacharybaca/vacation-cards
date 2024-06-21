@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 
 import './App.css'
 import VacationCard from './components/VacationCard';
@@ -33,7 +34,7 @@ function App() {
       <div id="app-container">
         <ul>
           {vacationSpots.map((spot) => {
-            console.log(spot.classList)
+            
             return (
             <li><VacationCard
                   place={spot.place}
